@@ -1,0 +1,16 @@
+database:
+  dsn: root:root@tcp(localhost:3306)/game?charset=utf8
+  maxConn: 10
+server:
+  logingate:
+    host: 0.0.0.0
+    port: 10000
+  loginserver:
+    host: 0.0.0.0
+    port: 11000
+  gamegate:
+    host: 0.0.0.0
+    port: 12000
+  gameserver:
+    host: 0.0.0.0
+    port: 13000
